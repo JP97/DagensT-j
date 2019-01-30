@@ -7,7 +7,16 @@
         mc:Ignorable="d"
         Title="NytTøj" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="348,180,0,0" VerticalAlignment="Top" Width="75" Click="btn_Return"/>
-
+        <Button Content="Tilbage" HorizontalAlignment="Left" Margin="687,363,0,0" VerticalAlignment="Top" Width="75" Click="btn_Return"/>
+        <ComboBox HorizontalAlignment="Left" Margin="51,80,0,0" VerticalAlignment="Top" Width="120" ToolTip="Type">
+            <ComboBoxItem>Bukser</ComboBoxItem>
+            <ComboBoxItem>Shorts</ComboBoxItem>
+            <ComboBoxItem>Trøje</ComboBoxItem>
+            <ComboBoxItem>Sokker</ComboBoxItem>
+            <ComboBoxItem>Undertøj</ComboBoxItem>
+            <ComboBoxItem>T-Shirt</ComboBoxItem>
+            <ComboBoxItem IsSelected="True">Andet</ComboBoxItem>
+        </ComboBox>
+        <Button Content="Tilföj töj" HorizontalAlignment="Left" Margin="395,345,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>

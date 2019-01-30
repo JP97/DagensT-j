@@ -6,22 +6,31 @@
         xmlns:local="clr-namespace:DagensTøj"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Label Content="Nyt tøj" HorizontalAlignment="Left" Margin="289,82,0,0" VerticalAlignment="Top"/>
-        <Label Content="Overblik" HorizontalAlignment="Left" Margin="449,82,0,0" VerticalAlignment="Top"/>
-        <Label Content="Log ind" HorizontalAlignment="Left" Margin="635,82,0,0" VerticalAlignment="Top"/>
-        <Label Content="Foreslå tøj" HorizontalAlignment="Left" Margin="120,246,0,0" VerticalAlignment="Top"/>
-        <Label Content="What to Wear" HorizontalAlignment="Left" Margin="289,246,0,0" VerticalAlignment="Top"/>
-        <Label Content="Planlæg tøj" HorizontalAlignment="Left" Margin="120,90,0,0" VerticalAlignment="Top" Width="121"/>
-        <Button HorizontalAlignment="Left" Margin="120,143,0,0" VerticalAlignment="Top" Width="84" Height="53" Click="btn_PT" >
-            <Image Height="53" Width="82" Source="C:\Users\julia\Desktop\katze.jpg" IsEnabled="False"/>
+    <Grid Background="LimeGreen">
+        <Label Content="Nyt tøj" HorizontalAlignment="Left" Margin="344,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Overblik" HorizontalAlignment="Left" Margin="582,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Log ind" HorizontalAlignment="Left" Margin="121,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="nix pille" HorizontalAlignment="Left" Margin="120,228,0,0" VerticalAlignment="Top"/>
+        <Label Content="What to Wear" HorizontalAlignment="Left" Margin="344,228,0,0" VerticalAlignment="Top"/>
+        <Button HorizontalAlignment="Left" Margin="321,82,0,0" VerticalAlignment="Top" Width="123" Click="btn_NT" Height="127">
+            <Image Source="C:\Users\julia\Desktop\bild.jpg" Height="112" Width="123"/>
         </Button>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="289,143,0,0" VerticalAlignment="Top" Width="75" Click="btn_NT"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="449,143,0,0" VerticalAlignment="Top" Width="75" Click="btn_Overblik"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="635,143,0,0" VerticalAlignment="Top" Width="75" Click="btn_LogInd"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="120,310,0,0" VerticalAlignment="Top" Width="75" Click="btn_FT"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="289,310,0,0" VerticalAlignment="Top" Width="75" Click="btn_WTW"/>
-        <Button Content="Dare&#xD;&#xA;To&#xD;&#xA;Wear" HorizontalAlignment="Left" Margin="508,223,0,0" VerticalAlignment="Top" Width="144" Height="120" Click="btn_DTW"/>
+        <Button HorizontalAlignment="Left" Margin="558,82,0,0" VerticalAlignment="Top" Width="124" Click="btn_Overblik" Height="127">
+            <Image Source="C:\Users\julia\Desktop\schrank.png" Height="122" Width="114" IsEnabled="False"/>
+
+        </Button>
+
+        <Button HorizontalAlignment="Left" Margin="85,82,0,0" VerticalAlignment="Top" Width="126" Click="btn_LogInd" Height="127">
+            <Image Source="C:\Users\julia\Desktop\login.png" Height="123" Width="136"/>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="85,259,0,0" VerticalAlignment="Top" Width="126" Click="btn_FT" Height="120"/>
+        <Button HorizontalAlignment="Left" Margin="321,259,0,0" VerticalAlignment="Top" Width="123" Click="btn_WTW" Height="120">
+            <Image Source="C:\Users\julia\Desktop\fragezeichen.jpg" Height="113" Width="113"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="558,259,0,0" VerticalAlignment="Top" Width="124" Height="120" Click="btn_DTW">
+            <Image Source="C:\Users\julia\Desktop\dtw.jpg" Height="121" Width="84"/>
+        </Button>
+        <Label Content="Dare to wear" HorizontalAlignment="Left" Margin="582,228,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

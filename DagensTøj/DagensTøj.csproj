@@ -67,9 +67,6 @@
     <Compile Include="NytTøj.xaml.cs">
       <DependentUpon>NytTøj.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Planlægtøj.xaml.cs">
-      <DependentUpon>Planlægtøj.xaml</DependentUpon>
-    </Compile>
     <Compile Include="WhatToWear.xaml.cs">
       <DependentUpon>WhatToWear.xaml</DependentUpon>
     </Compile>
@@ -102,10 +99,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Overblik.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Planlægtøj.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -142,6 +135,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bild.jpg" />
+    <Resource Include="dtw.jpg" />
+    <Resource Include="fragezeichen.jpg" />
+    <Resource Include="hose.PNG" />
+    <Resource Include="hut.PNG" />
+    <Resource Include="interessentanalysespärgsmäl.PNG" />
+    <Resource Include="jacke.PNG" />
+    <Resource Include="login.png" />
+    <Resource Include="pulli.PNG" />
+    <Resource Include="schrank.PNG" />
+    <Resource Include="schuhe.PNG" />
+    <Resource Include="sokker.PNG" />
+    <Resource Include="T-shirt.PNG" />
+    <Resource Include="unterhose.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

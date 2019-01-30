@@ -27,12 +27,7 @@ namespace DagensTøj
 
 
 
-		private void btn_PT(object sender, RoutedEventArgs e)
-		{
-			Planlægtøj pt = new Planlægtøj();
-			pt.Show();
-			this.Close();
-		}
+
 
 		private void btn_NT(object sender, RoutedEventArgs e)
 		{
