@@ -26,7 +26,7 @@ namespace DagensTøj
 
 		private void btn_Return(object sender, RoutedEventArgs e)
 		{
-			MainWindow mw = new MainWindow();
+			Login mw = new Login();
 			mw.Show();
 			this.Close();
 		}

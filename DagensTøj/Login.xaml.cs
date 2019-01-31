@@ -24,16 +24,46 @@ namespace DagensTøj
 			InitializeComponent();
 		}
 
-		private void btn_Return(object sender, RoutedEventArgs e)
+		private void btn_NT(object sender, RoutedEventArgs e)
 		{
-			MainWindow mw = new MainWindow();
-			mw.Show();
+			NytTøj nt = new NytTøj();
+			nt.Show();
 			this.Close();
 		}
 
-		private void Button_Click(object sender, RoutedEventArgs e)
+		private void btn_Overblik(object sender, RoutedEventArgs e)
 		{
+			Overblik o = new Overblik();
+			o.Show();
+			this.Close();
+		}
 
+		private void btn_LogInd(object sender, RoutedEventArgs e)
+		{
+			MainWindow li = new MainWindow();
+			li.Show();
+			this.Close();
+		}
+
+		private void btn_FT(object sender, RoutedEventArgs e)
+		{
+			ForeslåTøj ft = new ForeslåTøj();
+			ft.Show();
+			this.Close();
+		}
+
+		private void btn_WTW(object sender, RoutedEventArgs e)
+		{
+			WhatToWear wtw = new WhatToWear();
+			wtw.Show();
+			this.Close();
+		}
+
+		private void btn_DTW(object sender, RoutedEventArgs e)
+		{
+			DareToWear dtw = new DareToWear();
+			dtw.Show();
+			this.Close();
 		}
 	}
 }

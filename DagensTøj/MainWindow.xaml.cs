@@ -26,6 +26,16 @@ namespace DagensTøj
 		}
 
 
+		private void btn_Login(object sender, RoutedEventArgs e)
+		{
+
+			//if (Brugernavn.Equals("admin") && Password.Equals("admin"))
+			//{
+				Login log = new Login();
+				log.Show();
+				this.Close();
+			//}
+		}
 
 
 
