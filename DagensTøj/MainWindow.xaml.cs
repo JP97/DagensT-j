@@ -29,12 +29,13 @@ namespace DagensTøj
 		private void btn_Login(object sender, RoutedEventArgs e)
 		{
 
-			//if (Brugernavn.Equals("admin") && Password.Equals("admin"))
-			//{
+			if (Brugernavn.Text.Equals("admin") && Password.Text.Equals("admin"))
+			{
 				Login log = new Login();
 				log.Show();
 				this.Close();
-			//}
+			}
+		
 		}
 
 
