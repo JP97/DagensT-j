@@ -17,6 +17,6 @@
             <ComboBoxItem>T-Shirt</ComboBoxItem>
             <ComboBoxItem IsSelected="True">Andet</ComboBoxItem>
         </ComboBox>
-        <Button Content="Tilföj töj" HorizontalAlignment="Left" Margin="395,345,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Tilføj tøj" HorizontalAlignment="Left" Margin="395,345,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
