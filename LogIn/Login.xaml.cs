@@ -12,17 +12,31 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using DagensTøj;
 
 namespace LogIn
 {
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml
 	/// </summary>
-	public partial class MainWindow : Window
+	public partial class Login : Window
 	{
-		public MainWindow()
+		public Login()
 		{
+			
 			InitializeComponent();
+		}
+
+
+		private void btn_Login(object sender, RoutedEventArgs e)
+		{
+			MainWindow mw = new MainWindow();
+
+			if (Brugernavn.Equals("admin") && Password.Equals("admin"))
+			{
+				mw.Show();
+				this.Close();
+			}
 		}
 	}
 }

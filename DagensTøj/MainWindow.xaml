@@ -13,22 +13,22 @@
         <Label Content="nix pille" HorizontalAlignment="Left" Margin="120,228,0,0" VerticalAlignment="Top"/>
         <Label Content="What to Wear" HorizontalAlignment="Left" Margin="344,228,0,0" VerticalAlignment="Top"/>
         <Button HorizontalAlignment="Left" Margin="321,82,0,0" VerticalAlignment="Top" Width="123" Click="btn_NT" Height="127">
-            <Image Source="C:\Users\julia\Desktop\bild.jpg" Height="112" Width="123"/>
+            <Image Source="bild.jpg" Height="112" Width="123"/>
         </Button>
         <Button HorizontalAlignment="Left" Margin="558,82,0,0" VerticalAlignment="Top" Width="124" Click="btn_Overblik" Height="127">
-            <Image Source="C:\Users\julia\Desktop\schrank.png" Height="122" Width="114" IsEnabled="False"/>
+            <Image Source="schrank.png" Height="122" Width="114" IsEnabled="False"/>
 
         </Button>
 
         <Button HorizontalAlignment="Left" Margin="85,82,0,0" VerticalAlignment="Top" Width="126" Click="btn_LogInd" Height="127">
-            <Image Source="C:\Users\julia\Desktop\login.png" Height="123" Width="136"/>
+            <Image Source="login.png" Height="123" Width="136"/>
         </Button>
         <Button Content="Button" HorizontalAlignment="Left" Margin="85,259,0,0" VerticalAlignment="Top" Width="126" Click="btn_FT" Height="120"/>
         <Button HorizontalAlignment="Left" Margin="321,259,0,0" VerticalAlignment="Top" Width="123" Click="btn_WTW" Height="120">
-            <Image Source="C:\Users\julia\Desktop\fragezeichen.jpg" Height="113" Width="113"/>
+            <Image Source="fragezeichen.jpg" Height="113" Width="113"/>
         </Button>
         <Button HorizontalAlignment="Left" Margin="558,259,0,0" VerticalAlignment="Top" Width="124" Height="120" Click="btn_DTW">
-            <Image Source="C:\Users\julia\Desktop\dtw.jpg" Height="121" Width="84"/>
+            <Image Source="dtw.jpg" Height="121" Width="84"/>
         </Button>
         <Label Content="Dare to wear" HorizontalAlignment="Left" Margin="582,228,0,0" VerticalAlignment="Top"/>
 

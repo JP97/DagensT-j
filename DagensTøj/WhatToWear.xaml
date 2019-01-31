@@ -11,14 +11,14 @@
         <Label Content="Hat" HorizontalAlignment="Left" Margin="56,46,0,0" VerticalAlignment="Top"/>
         <Label Content="Trøje" HorizontalAlignment="Left" Margin="56,120,0,0" VerticalAlignment="Top"/>
         <Label Content="Bukser" HorizontalAlignment="Left" Margin="56,214,0,0" VerticalAlignment="Top"/>
-        <Image Source="C:\Users\julia\Desktop\hut.png" HorizontalAlignment="Left" Height="47" Margin="144,25,0,0" VerticalAlignment="Top" Width="100"/>
-        <Image Source="C:\Users\julia\Desktop\pulli.png" HorizontalAlignment="Left" Height="100" Margin="144,77,0,0" VerticalAlignment="Top" Width="75"/>
-        <Image Source="C:\Users\julia\Desktop\hose.png" HorizontalAlignment="Left" Height="100" Margin="144,190,0,0" VerticalAlignment="Top" Width="60"/>
-        <Image Source="C:\Users\julia\Desktop\t-shirt.png" HorizontalAlignment="Left" Height="75" Margin="381,25,0,0" VerticalAlignment="Top" Width="86"/>
-        <Image Source="C:\Users\julia\Desktop\unterhose.png" HorizontalAlignment="Left" Height="60" Margin="381,134,0,0" VerticalAlignment="Top" Width="86"/>
-        <Image Source="C:\Users\julia\Desktop\schuhe.png" HorizontalAlignment="Left" Height="79" Margin="381,302,0,0" VerticalAlignment="Top" Width="69"/>
-        <Image Source="C:\Users\julia\Desktop\sokker.png" HorizontalAlignment="Left" Height="57" Margin="381,214,0,0" VerticalAlignment="Top" Width="69"/>
-        <Image Source="C:\Users\julia\Desktop\jacke.png" HorizontalAlignment="Left" Height="100" Margin="144,309,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image Source="hut.png" HorizontalAlignment="Left" Height="47" Margin="144,25,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="pulli.png" HorizontalAlignment="Left" Height="100" Margin="144,77,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image Source="hose.png" HorizontalAlignment="Left" Height="100" Margin="144,190,0,0" VerticalAlignment="Top" Width="60"/>
+        <Image Source="t-shirt.png" HorizontalAlignment="Left" Height="75" Margin="381,25,0,0" VerticalAlignment="Top" Width="86"/>
+        <Image Source="unterhose.png" HorizontalAlignment="Left" Height="60" Margin="381,134,0,0" VerticalAlignment="Top" Width="86"/>
+        <Image Source="schuhe.png" HorizontalAlignment="Left" Height="79" Margin="381,302,0,0" VerticalAlignment="Top" Width="69"/>
+        <Image Source="sokker.png" HorizontalAlignment="Left" Height="57" Margin="381,214,0,0" VerticalAlignment="Top" Width="69"/>
+        <Image Source="jacke.png" HorizontalAlignment="Left" Height="100" Margin="144,309,0,0" VerticalAlignment="Top" Width="75"/>
         <Label Content="T-Shirt" HorizontalAlignment="Left" Margin="500,46,0,0" VerticalAlignment="Top"/>
         <Label Content="Underbukser" HorizontalAlignment="Left" Margin="500,134,0,0" VerticalAlignment="Top"/>
         <Label Content="Sokker" HorizontalAlignment="Left" Margin="500,222,0,0" VerticalAlignment="Top"/>

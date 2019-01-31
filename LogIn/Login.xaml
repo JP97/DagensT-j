@@ -1,0 +1,19 @@
+﻿<Window x:Class="LogIn.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LogIn"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="DimGray">
+        <TextBox Name="Brugernavn" HorizontalAlignment="Left" Height="30" Margin="299,146,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="168"/>
+        <TextBox Name="Password" HorizontalAlignment="Left" Height="30" Margin="299,223,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="168" TextChanged="TextBox_TextChanged"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="335,286,0,0" VerticalAlignment="Top" Width="98" Click="btn_Login"/>
+        <Button Content="Glemt Password" HorizontalAlignment="Left" Margin="335,363,0,0" VerticalAlignment="Top" Width="98"/>
+        <Button Content="Opret Bruger" HorizontalAlignment="Left" Margin="335,325,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label Content="Indtast Brugernavn" HorizontalAlignment="Left" Margin="299,115,0,0" VerticalAlignment="Top"/>
+        <Label Content="Indtast Password" HorizontalAlignment="Left" Margin="299,192,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
